@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Abhi" => "abhishek.rai@bigbasket.com" }
+  spec.author             = { "Abhishek2662" => "abhishekrai2662@gmail.com" }
   # Or just: spec.author    = "Abhi"
   # spec.authors            = { "Abhi" => "abhishek.rai@bigbasket.com" }
   # spec.social_media_url   = "https://twitter.com/Abhi"
@@ -78,7 +78,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :path => "." }
+  #spec.source       = { :path => "." }
+  spec.source       = { :git => "https://github.com/Abhishek2662/Frameworks.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
